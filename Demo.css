@@ -1,0 +1,84 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#Box1
+{ 
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+
+    /* Types Of Display (Basics) */
+
+    /* visibility: hidden; */
+    /* display: none; */
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
+    
+    
+    
+    
+}
+#Box2
+{ 
+    /* display: inline-block; */
+
+    /* display: block; */
+
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: lawngreen;
+
+
+
+
+}
+
+
+
+#Main
+{
+    height: 800px;
+    border: 3px solid red;
+
+/* ! Display FLEX */
+
+    display: flex;
+    /* Align Items */
+    /* align-items: center; */         /* Centers flex items vertically */
+    /* align-items: start; */          /* Aligns flex items at the start of the cross axis */
+    /* align-items: end; */            /* Aligns flex items at the end of the cross axis */
+
+    /* Justify Content */
+    /* justify-content: center; */     /* Centers flex items horizontally */
+    /* justify-content: start; */      /* Aligns flex items at the start of the main axis */
+    /* justify-content: end; */        /* Aligns flex items at the end of the main axis */
+
+    /* Spacing */
+    /* justify-content: space-evenly; */   /* Distributes space evenly between flex items, including the outer edges */
+    /* justify-content: space-around; */   /* Distributes space evenly between flex items, with half-size spaces on the ends */
+    /* justify-content: space-between; */  /* Distributes space evenly between flex items, with no space at the ends */
+    
+
+
+}
+
+.item
+{
+  
+    height: 150px;
+    width: 150px;
+    background-color: white;
+
+    border: 1px solid red;
+}
